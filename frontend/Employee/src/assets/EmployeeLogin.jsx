@@ -50,14 +50,7 @@ function EmployeeLogin() {
         </div>
         <button type="submit">Login</button>
       </form>
-      <div className="create-account-link">
-        <p>Don't have an account?</p>
-        <Link to="/create-account">
-          <button className="create-account-button">Create Account
-          <div className="stars">⭐</div>
-          </button>
-        </Link>
-      </div>
+      
     </div>
   );
 }

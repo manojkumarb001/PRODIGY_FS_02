@@ -1,0 +1,521 @@
+/* General styles for the app */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/pictures/bg.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Container for the Register and Dashboard components */
+.Register,
+.Dashboard,
+.EditUser {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #c5dedec5;
+  box-shadow: 0 2px 4px rgba(20.5, 20.5, 20.5, 10.4);
+  border-radius: 8px;
+  align-items: center;
+}
+
+dashboard-content {
+  align-items: center;
+}
+
+.buttonStyle{
+  padding: 10px 20px;
+  background-color: #c53563;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonStyle:hover {
+  background-color: #00a7b3;
+}
+
+.Dashboard h1{
+  color: #b30021;
+}
+.Register h1{
+  color: #b30021;
+}
+/* Header styles */
+h1 {
+  text-align: center;
+  color: #5ed7de;
+  font-size: 4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-variant: small-caps;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #100617;
+  font-size: medium;
+  font-style: oblique;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select {
+  padding: 10px;
+  border: 2px solid #010101;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #160709fd;
+  font-size: medium;
+  font-family: sans-serif;
+  font-weight: 600;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #c53563;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #00a7b3;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Additional responsive styles */
+@media (max-width: 600px) {
+
+  .Register,
+  .Dashboard {
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  table th,
+  table td {
+    padding: 8px;
+  }
+}
+
+.button-style {
+  background-color: #21a7cb;
+  border: 5px solid rgb(236, 226, 229);
+
+  color: rgb(189, 25, 25);
+  font-size: 20px;
+  font-weight: 900;
+  font-display: inherit;
+}
+
+/*homepage styles */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #b3004bba;
+  padding: 10px 20px;
+
+  justify-content: space-around;
+  text-decoration: none;
+
+}
+
+footer {
+  background-color: #b3004bba;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px 20px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: large;
+  justify-content: space-evenly;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+
+}
+
+section {
+  padding: 20px;
+}
+
+.button-style {
+  display: inline;
+  padding: 10px 20px;
+  background-color: #db768ac9;
+  color: #0f0d0d;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-style:hover {
+  background-color: #09b300;
+  color: whitesmoke;
+  border: 2px solid black;
+}
+
+.slider-image {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.content {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex-wrap: wrap;
+
+}
+
+/* styles for Admin Login */
+
+.AdminLogin {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #0f0c0c;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  background-color: #9a33638a;
+}
+
+.AdminLogin h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.AdminLogin form {
+  display: flex;
+  flex-direction: column;
+}
+
+.AdminLogin form div {
+  margin-bottom: 15px;
+}
+
+.AdminLogin label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.AdminLogin input {
+  padding: 10px;
+  border: 2px solid #180e0e;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.AdminLogin button {
+  padding: 10px;
+  background-color: #28a7a7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.AdminLogin {
+  position: relative;
+}
+
+.stars {
+  display: none;
+  position: absolute;
+
+}
+
+.AdminLogin:hover .stars {
+  display: block;
+  filter: drop-shadow(0 0 10px #fffdef);
+  size: 200pt;
+}
+
+.create-account-link p {
+  font-size: large;
+  font-weight: 600;
+  font-display: inherit;
+  color: whitesmoke;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+/* styles for create account */
+.CreateAccount {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 4px solid #110f0f;
+  border-radius: 5px;
+  background-color: #9a33638a;
+  color: rgb(252, 242, 242);
+  font-weight: bolder;
+}
+
+.CreateAccount h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.CreateAccount form {
+  display: flex;
+  flex-direction: column;
+}
+
+.CreateAccount form div {
+  margin-bottom: 10px;
+}
+
+.CreateAccount form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.CreateAccount form input {
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+  border: 2px solid #181515;
+  border-radius: 5px;
+}
+
+.CreateAccount button {
+  padding: 10px 20px;
+  background-color: #28a7a7;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.CreateAccount button:hover {
+  background-color: #10a838;
+}
+
+/* styles for Emp Details */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  max-width: 100%;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal div {
+  margin-bottom: 10px;
+}
+
+.modal label {
+  font-weight: bold;
+}
+
+.modal p {
+  margin: 0;
+}
+
+.modal button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h3 {
+  align-items: center;
+  margin-left: 300px;
+  color: whitesmoke;
+}
+
+/* Add Employee button styles */
+.dashboard-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.add-user-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-user-btn svg {
+  margin-right: 5px;
+}
+
+.add-user-btn:hover {
+  background-color: #218838;
+}
+
+
+/* Sidebar stylea */
+.sidebar {
+  width: 100%;
+  height: 30cap;
+  float: left;
+  background-color: #40d8b7;
+  padding: 10px;
+}
+
+.sidebar h3 {
+  margin-top: 50px;
+  color: rgb(255, 245, 245);
+  font-size: 50px;
+  font-weight: bolder;
+
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+/* EmployeeHomePage stylea */
+.employee-home-page {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 260px; /* Adjust based on sidebar width */
+  padding: 20px;
+}
+
+/* ProfilePage stylea */
+.profile-page {
+  padding: 20px;
+}
+/* styles for profile */
+.profile{
+  background-color: #0091a7a6;
+  height: fit-content;
+  width: 100%;
+  padding: 15px;
+  margin: 50px;
+  color: white;
+  font-size: larger;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.profile h3{
+  height: fit-content;
+  width: 500px;
+  margin: auto;
+  padding: 15px;
+  color: rgb(11, 8, 8);
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

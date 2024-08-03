@@ -1,0 +1,56 @@
+
+.dashboard {
+    padding: 20px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    border: 10px solid #e2a8a8;
+    padding: 8px;
+  }
+  
+  .user-table th {
+    background-color: #390c0c;
+    text-align: left;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f44c4c;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  .user-table tr{
+    font-size: large;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .user-table tr:hover {
+    background-color: #16cac7;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  .user-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
